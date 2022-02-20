@@ -95,9 +95,9 @@ header > div{
 main{
     background-color: white;
     border-radius: 2.97rem;
-    position: relative;
+    /* position: relative; */
     width: 100%;
-    top: 12.23rem;
+    margin-top: 12.23rem;
     padding: 3.03rem;
 }
 
@@ -194,4 +194,7 @@ main{
 footer{
     margin-top: 4rem;
     width: 100%;
+    height: 3rem;
+    background-color: var(--greenBg);
+    
 }
