@@ -1,6 +1,9 @@
 *{
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
 }
 /* 1 rem = 16.8 */
 
@@ -38,6 +41,8 @@ header{
     justify-content: space-between; */
     height: 15.23rem;
    margin-top: 2.20rem;
+   border-top-left-radius: 1.19rem;
+   border-top-right-radius: 1.19rem;
 }
 
 header > div{
@@ -54,6 +59,7 @@ header > div{
     /* width: 3.80rem;
     height: 3.51rem; */
     margin-right: 3.03rem;
+    margin-top: 2.26rem;
     display: flex;
     border-style: solid;
     
