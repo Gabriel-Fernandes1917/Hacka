@@ -10,7 +10,7 @@ a{
 }
 
 body{
-    background-color: var(--greenBg);
+    background-color: #4BB179;
     --corLetrasCover: #001F60;
     --greenBg: #00664F;
 
@@ -25,13 +25,18 @@ body{
     /* fim cores alto risco */
 }
 
+body > div{
+    width: 70%;
+    margin: auto;
+}
+
 header{
     background-color: var(--greenBg);
     /* margin: 3% auto auto 3%; */
     width: 100%;
     /* display: flex;
     justify-content: space-between; */
-    
+    height: 15.23rem;
    margin-top: 2.20rem;
 }
 
@@ -97,7 +102,7 @@ main{
     border-radius: 2.97rem;
     /* position: relative; */
     width: 100%;
-    margin-top: 12.23rem;
+    margin-top: -5rem;
     padding: 3.03rem;
 }
 
