@@ -18,6 +18,11 @@ body{
     --laranjaImpar: #FF7648;
     --laranjaPar: #FFC278;
     /* fim cores alto risco */
+
+    /* 2 cor home andamento */
+    --verdeImpar: #4DC591;
+    --verdePar:   #00664F;
+    /* fim cores alto risco */
 }
 
 header{
@@ -162,6 +167,14 @@ main{
         line-height: 1.30rem; 
        
     
+}
+
+.userEmRecup > div >.userList > section:nth-child(odd){
+    background-color: var(--verdeImpar);
+}
+
+.userEmRecup > div>  .userList > section:nth-child(even){
+    background-color: var(--verdePar);
 }
 
 footer{
