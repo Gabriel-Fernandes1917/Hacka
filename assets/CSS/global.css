@@ -109,6 +109,13 @@ main{
     line-height: 1.30rem;
 }
 
+.destaques > div {
+    margin-top: 1rem;
+}
+
+.userEmRecup > div{
+    margin-top: 1rem;
+}
 
 /* menu maior risco */
 
@@ -124,15 +131,16 @@ main{
     /* top: 34.46rem; */
     border-radius: 0.89rem;
     margin-right: 1rem;
+    background-color: var(--laranjaImpar);
 }
 
-.userList > section:nth-child(odd){
+/* .userList > section:nth-child(odd){
     background-color: var(--laranjaImpar);
 }
 
 .userList > section:nth-child(even){
     background-color: var(--laranjaPar);
-}
+} */
 
 .NomeInfos{
     margin: 0.5rem;
@@ -183,13 +191,17 @@ main{
     
 }
 
-.userEmRecup > div >.userList > section:nth-child(odd){
+.userEmRecup > div >.userList > section{
     background-color: var(--verdeImpar);
-}
+} 
 
-.userEmRecup > div>  .userList > section:nth-child(even){
+/* .userEmRecup > div >.userList > section:nth-child(odd){
+    background-color: var(--verdeImpar);
+} */
+
+/* .userEmRecup > div>  .userList > section:nth-child(even){
     background-color: var(--verdePar);
-}
+} */
 
 footer{
     margin-top: 4rem;

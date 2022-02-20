@@ -1,0 +1,81 @@
+header > div{
+    justify-content: left;
+}
+
+.menuVolta > button {
+    margin: auto;
+    background: #197561;
+    width: 3.80rem;
+    height: 3.51rem;
+    border: none;
+    border-radius: 1.19rem;
+}
+
+.infosUserOnpen{
+    margin-left: 2.20rem;
+}
+/* user info privado */
+.userPage{
+    display: flex;
+    justify-content: space-between;
+}
+
+.userPage > section{
+    background-color: #197561;
+    width: 47.51rem;
+    height: 8.98rem;
+    left: 19.34rem;
+    /* top: 34.46rem; */
+    border-radius: 0.89rem;
+    margin-right: 1rem;
+}
+
+.NomeInfos{
+    margin: 0.5rem;
+}
+
+/* code das sections dos mais risco de sair */
+
+
+.bgUsersFoto{
+    border-style: solid;
+    background-image: url(/assets/IMG/perfIcon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 3.05rem;
+    height: 3.69rem;
+    /* left: 30.11rem; */
+    margin: auto;
+    /* top: 34.46rem; */
+    border-radius: 2rem;
+}
+
+
+/* açoes do cliente */
+
+.userEmRecup > div{
+    margin-top: 1rem;
+}
+
+/* menu maior risco */
+
+.userListAcoes{
+    display: flex;
+    justify-content: space-between;
+}
+
+.userListAcoes > section{
+    width: 15.83rem;
+    height: 8.98rem;
+    left: 19.34rem;
+    /* top: 34.46rem; */
+    border-radius: 0.89rem;
+    margin-right: 1rem;
+    background-color: #FF7648;
+}
+
+
+
+.acoes > .NomeInfos {
+    text-align: center
+}
