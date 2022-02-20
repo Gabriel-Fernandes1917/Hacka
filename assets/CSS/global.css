@@ -3,6 +3,12 @@
     box-sizing: border-box;
 }
 /* 1 rem = 16.8 */
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
 body{
     background-color: var(--greenBg);
     --corLetrasCover: #001F60;
@@ -16,10 +22,21 @@ body{
 
 header{
     background-color: var(--greenBg);
-    margin: 3% auto auto 3%;
+    /* margin: 3% auto auto 3%; */
     width: 100%;
-    display: flex;
+    /* display: flex;
+    justify-content: space-between; */
+    
+   margin-top: 2.20rem;
 }
+
+header > div{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
 
 .pesquisa{
     background-color: #197561;
@@ -50,9 +67,9 @@ header{
     width: auto;
 }
 
-header > h1{
-    margin: auto;
-}
+/* header > h1{
+   margin: auto;
+} */
 
 /* mains */
 
@@ -85,8 +102,9 @@ main{
     width: 15.83rem;
     height: 8.98rem;
     left: 19.34rem;
-    top: 34.46rem;
+    /* top: 34.46rem; */
     border-radius: 0.89rem;
+    margin-right: 1rem;
 }
 
 .userList > section:nth-child(odd){
@@ -97,21 +115,56 @@ main{
     background-color: var(--laranjaPar);
 }
 
+.NomeInfos{
+    margin: 0.5rem;
+}
+
 /* code das sections dos mais risco de sair */
 
-.bgUsersFoto :nth-child(odd){
+/* .userList > section > .bgUsersFoto :nth-child(odd){
     background-color: var(--laranjaPar);
 }
 
-.bgUsersFoto :nth-child(even){
+.userList > section > .bgUsersFoto :nth-child(even){
     background-color: var(--laranjaImpar);
-}
+} */
 
 .bgUsersFoto{
-    
-    width: 5.05rem;
+    border-style: solid;
+    background-image: url(/assets/IMG/perfIcon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 3.05rem;
     height: 3.69rem;
-    left: 30.11rem;
-    top: 34.46rem;
-    border-radius: 0.89rem;
+    /* left: 30.11rem; */
+    margin: auto;
+    /* top: 34.46rem; */
+    border-radius: 2rem;
+}
+
+/* .bgUsersFoto > img {
+    
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+/* Fim  menu maior risco */
+
+.userEmRecup{
+    margin-top: 3.39rem;
+}
+
+.userEmRecup > p{
+        font-family: Inter;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 1.07rem;
+        line-height: 1.30rem; 
+       
+    
+}
+
+footer{
+    margin-top: 4rem;
+    width: 100%;
 }
