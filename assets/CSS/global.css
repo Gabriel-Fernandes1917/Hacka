@@ -2,7 +2,29 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+/* 1 rem = 16.8 */
 body{
-    background: #E5E5E5;
+    background-color: var(--greenBg);
+    --corLetrasCover: #001F60;
+    --greenBg: #00664F;
+}
+
+header{
+    background-color: var(--greenBg);
+    margin: 3% auto auto 3%;
+    width: 100%;
+    display: flex;
+}
+
+header > div{
+    background-color: #197561;
+    border-radius: 7px;
+    width: 3.80rem;
+    height: 3.51rem;
+}
+
+header > div > img {
+    position: relative;
+    float: center;
+    
 }
