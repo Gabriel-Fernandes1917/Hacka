@@ -16,15 +16,54 @@ header{
     display: flex;
 }
 
-header > div{
+.pesquisa{
     background-color: #197561;
-    border-radius: 7px;
+    border-radius: 1.19rem;
     width: 3.80rem;
     height: 3.51rem;
+    margin-right: 3.03rem;
+    display: flex;
+    border-style: solid;
+    
 }
 
-header > div > img {
-    position: relative;
-    float: center;
+.pesquisa > img {
+    /* position: absolute;
+    left: 1.73rem;
+    right: 1.73rem;
+    top: 1.73rem;
+    bottom: 1.73rem; */
+    padding: 0.6rem;
+}
+
+.pesquisa > input{
+    /* background-color: var(--greenBg); */
     
+    border: black;
+    /* border-style: solid; */
+    height: 3.1rem;
+    width: auto;
+}
+
+header > h1{
+    margin: auto;
+}
+
+/* mains */
+
+main{
+    background-color: white;
+    border-radius: 2.97rem;
+    position: relative;
+    width: 100%;
+    top: 12.23rem;
+    padding: 3.03rem;
+}
+
+.destaques> p{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.07rem;
+    line-height: 1.30rem;
 }
