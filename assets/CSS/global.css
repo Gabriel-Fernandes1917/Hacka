@@ -7,6 +7,11 @@ body{
     background-color: var(--greenBg);
     --corLetrasCover: #001F60;
     --greenBg: #00664F;
+
+    /* 2 cor home alto risco  */
+    --laranjaImpar: #FF7648;
+    --laranjaPar: #FFC278;
+    /* fim cores alto risco */
 }
 
 header{
@@ -66,4 +71,47 @@ main{
     font-weight: bold;
     font-size: 1.07rem;
     line-height: 1.30rem;
+}
+
+
+/* menu maior risco */
+
+.userList{
+    display: flex;
+    justify-content: space-between;
+}
+
+.userList > section{
+    width: 15.83rem;
+    height: 8.98rem;
+    left: 19.34rem;
+    top: 34.46rem;
+    border-radius: 0.89rem;
+}
+
+.userList > section:nth-child(odd){
+    background-color: var(--laranjaImpar);
+}
+
+.userList > section:nth-child(even){
+    background-color: var(--laranjaPar);
+}
+
+/* code das sections dos mais risco de sair */
+
+.bgUsersFoto :nth-child(odd){
+    background-color: var(--laranjaPar);
+}
+
+.bgUsersFoto :nth-child(even){
+    background-color: var(--laranjaImpar);
+}
+
+.bgUsersFoto{
+    
+    width: 5.05rem;
+    height: 3.69rem;
+    left: 30.11rem;
+    top: 34.46rem;
+    border-radius: 0.89rem;
 }
