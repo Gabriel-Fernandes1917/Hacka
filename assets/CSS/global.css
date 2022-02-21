@@ -169,7 +169,7 @@ main{
 
 .bgUsersFoto{
     border-style: solid;
-    background-image: url(/assets/IMG/perfIcon.png);
+    background-image: url(../IMG/perfIcon.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 3.05rem;
